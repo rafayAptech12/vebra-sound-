@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="vebraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E2EC"/>
+    </linearGradient>
+    <filter id="dotGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#FF2E93" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <!-- Background Container -->
+  <rect width="64" height="64" rx="16" fill="#08080C"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <!-- VEBRA "V" Monogram -->
+  <path d="M16 18 L25.5 18 L32 37.5 L38.5 18 L48 18 L36.5 46 L27.5 46 Z" fill="url(#vebraGrad)"/>
+  <!-- Signature Neon Magenta Dot -->
+  <circle cx="50" cy="44" r="4.2" fill="#FF2E93" filter="url(#dotGlow)"/>
+</svg>

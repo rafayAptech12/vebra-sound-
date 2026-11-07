@@ -1,0 +1,29 @@
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE and Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local Backups & Cache
+_backup_*/
+hts-cache/
+*.bak
+*.tmp
+*.log
+
+# Python / build scratch
+__pycache__/
+*.pyc
+scratch/
+edge_profile/
+
+# Environment / Secret overrides (if created)
+.env
+config.local.php
+/vendor/
